@@ -1,0 +1,7 @@
+fn main(){
+    let mut x = 10;
+    let y = 6;
+    println!("x = {} and y = {} are two numbers", x,y);
+    x = x + y;
+    println!("The result value is {}", x);
+}
