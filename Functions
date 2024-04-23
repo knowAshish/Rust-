@@ -1,0 +1,43 @@
+fn main() {
+    println!("Hello, world!");
+
+    f1();
+    f2(32);
+    f3(22, 'R');
+    ex();
+    let xy = return_value();
+    println!("Value of xy is -{xy}");
+}
+//Simple Function
+fn f1() {
+    println!("New Function");
+}
+//passing single parameter
+
+fn f2(x: i32) {
+    println!("The Value of x is --{}", x);
+}
+
+//passing multiple parameter
+
+fn f3(x: i32, y: char) {
+    println!("The value of x is -{}, and the value of y is -{}", x, y);
+    //println!("The value of x is -{x}, and the value of y is -{y}");
+}
+
+//expressions
+
+fn ex() {
+    let y = {
+        let x = 9;
+        x + 1
+    };
+
+    println!("Value of y is -{y}");
+}
+
+//return value from function
+
+fn return_value() -> i32 {
+    22 + 11
+}
