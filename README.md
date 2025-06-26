@@ -1,2 +1,2 @@
-# Rust-
+# Rust
 Dving into Rust programming! 🦀
